@@ -215,4 +215,48 @@ There are two phases to build an IPsec tunnel:
 
 Once IKE phase 2 is completed, we have an IKE phase 2 tunnel (or IPsec tunnel) that we can use to protect our user data. This user data will be sent through the IKE phase 2 tunnel.
 ![image](https://github.com/user-attachments/assets/5ec3d292-05da-4a87-ae1c-83a85b042935)
+
+
+
+## BONUS - Setup High Avalability (HA)
+![image](https://github.com/user-attachments/assets/62bb26c4-5a95-40f3-9718-5fe6d85932c6)
+
+ 
+Prerequisites
+- Both devices in the HA cluster (that is, Primary Device and Auxiliary Device) must be the same model and revision.
+- Both devices must be registered.
+- Both devices must have the same number of interfaces.
+- Both devices must have the same firmware version installed. This includes maintenance releases and hot-fixes as well as firmware build. You can verify the firmware version using the following console command: system diagnostics show version-info
+
+
+## BONUS - Sophos Central
+Sophos Central is a cloud-based cybersecurity management platform that allows IT administrators to manage and monitor various Sophos security products from a single interface. It provides centralized control over endpoint protection, firewall management, email security, mobile device management, server protection, and more.
+
+![image](https://github.com/user-attachments/assets/0a4cf0a8-0db8-43ea-af23-4e61027327ad)
+
+Alerts
+![image](https://github.com/user-attachments/assets/4244eb0a-8a61-4567-a241-51aefb67dcd4)
+
+Turning Off Sophos XG Firewall to test notifications.
+![image](https://github.com/user-attachments/assets/8b05296b-0e5d-47c3-8ce4-4937c7d1965a)
+![image](https://github.com/user-attachments/assets/8db8f2eb-7e9e-4457-bf5f-08f1354ca7b5)
+![image](https://github.com/user-attachments/assets/0c106691-db29-488b-acaf-0af1112a10ab)
+![image](https://github.com/user-attachments/assets/7e579c8a-8136-40a4-8f2c-b8f291e69674)
+![image](https://github.com/user-attachments/assets/c6a3760f-8cd5-4f30-b979-ad1235cbb4d8)
+
+### Bonus - Packet Capture on CLI
+Command ``` 'host 192.168.3.10' ``` here I am runing a packet capture to my AD Server host machine in CLI.
+![WhatsApp Image 2025-03-06 at 22 31 44_e52b19d6](https://github.com/user-attachments/assets/05a4475e-1f91-4031-bd31-5e77e33470b6)
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
  
